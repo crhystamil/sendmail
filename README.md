@@ -51,10 +51,6 @@ In addition above, mod_rewrite module should be enabled and "AllowOverride All" 
 
 Note: Allowed upload file types are "gif|jpg|png|doc|txt|pdf|rar|docx|pptx|ppt|xlsx|xls|zip|html|htm|text", make sure that file size is max 12MB in PHP configuration file.
 
-![alt tag](https://raw.githubusercontent.com/galkan/sees/master/www/public/img/sees_help.PNG)
-
-![alt tag](https://raw.githubusercontent.com/galkan/sees/master/www/public/img/sees_main.PNG)
-
 ### What is SEES?
 
  Most of the companies nowadays have their firewalls, threat monitoring and prevention security appliances setup. With these mechanisms in place, security precautions are taken and incidents are monitored. Inbound traffic being restricted, SEES on the other hand is developed for sending targeted phishing emails in order to carry sophisticated social engineering attacks/audits.
@@ -85,7 +81,6 @@ tcp        0      0 127.0.0.1:25            0.0.0.0:*               LISTEN      
 
 ### Downloading & Configuring SEES
 
-Latest source code can be downloaded fro https://github.com/galkan/sees. 
 For Backtrack Linux first we should install dependencies. For Kali Linux you can skit this step.
 
 ```
